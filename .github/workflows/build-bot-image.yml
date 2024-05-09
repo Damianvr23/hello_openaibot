@@ -7,7 +7,7 @@ env:
   ACR_LOGINSERVER: ${{ secrets.ACR_LOGINSERVER }}
   ACR_USERNAME: ${{ secrets.ACR_USERNAME }}
   ACR_PASSWORD: ${{ secrets.ACR_PASSWORD }}
-  image_name: oabot
+  image_name: dvroabot
   #tag: ${{ github.sha }}
   #tag: test
   tag: 3978
